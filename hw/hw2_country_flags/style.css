@@ -39,7 +39,7 @@
   
   .horiz {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
   }
   
   .twovert {
@@ -69,6 +69,43 @@
     position: relative;
     left: 85px;
     top: 50px;
+  }
+
+  .small11211 {
+    height: calc(100% / 6);
+  }
+
+  .big11211 {
+    height: calc(100% / 3);
+  }
+
+  img {
+      object-fit: contain;
+  }
+
+  .greece {
+    align-content: flex-start;
+    height: calc(300px * (2/18));
+  }
+
+  .greeceblueshort {
+    width: calc(500px * (4/27));
+  }
+
+  .greecebluelong {
+    width: calc(500px * (17/27));
+  }
+
+  .greecehorizcross {
+    width: calc(500px * (2/27));
+  }
+
+  .greecemiddlecross {
+    width: calc(500px * (10/27));
+  }
+
+  .greecewholeline {
+      width: 500px;
   }
   
   /* Colors/ Feel free to add your own! */
