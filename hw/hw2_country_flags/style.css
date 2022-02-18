@@ -39,7 +39,7 @@
   
   .horiz {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
   }
   
   .twovert {
@@ -62,14 +62,14 @@
     height: 30%;
   }
   
-  .circle {
+  /* .circle {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     position: relative;
     left: 85px;
     top: 50px;
-  }
+  } */
 
   .small11211 {
     height: calc(100% / 6);
@@ -83,29 +83,34 @@
       object-fit: contain;
   }
 
-  .greece {
+  .startandwrap {
+    flex-wrap: wrap;
     align-content: flex-start;
-    height: calc(300px * (2/18));
   }
 
   .greeceblueshort {
-    width: calc(500px * (4/27));
+    width: calc(100% * (4/27));
+    height: calc(100% * (2/18));
   }
 
   .greecebluelong {
-    width: calc(500px * (17/27));
+    width: calc(100% * (17/27));
+    height: calc(100% * (2/18));
   }
 
-  .greecehorizcross {
-    width: calc(500px * (2/27));
+  .greecevertcross {
+    width: calc(100% * (2/27));
+    height: calc(100% * (2/18));
   }
 
   .greecemiddlecross {
-    width: calc(500px * (10/27));
+    width: calc(100% * (10/27));
+    height: calc(100% * (2/18));
   }
 
   .greecewholeline {
-      width: 500px;
+      width: 100%;
+      height: calc(100% * (2/18));
   }
   
   /* Colors/ Feel free to add your own! */
