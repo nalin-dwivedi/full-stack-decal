@@ -1,0 +1,48 @@
+/* body {
+    color: red;
+    background-color: black;
+    font-size: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+}
+ */
+
+.box-container {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    /* background-color: black; */
+    color: white;
+    font-size: 50px;
+}
+
+/* p {
+    color: red;
+} */
+
+.box-one {
+    background-color: red;
+    /* color: black; */
+}
+
+.box-two {
+    background-color: green;
+    /* color: black; */
+}
+
+.box-three {
+    background-color: blue;
+    /* color: black; */
+}
+
+div {
+    font-size: 30px;
+}
+
+.div2 {
+    font-size: 60px;
+}
