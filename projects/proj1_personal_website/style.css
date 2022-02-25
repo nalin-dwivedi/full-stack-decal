@@ -1,0 +1,100 @@
+.design3 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.header-box {
+    height: 4.5vh;
+    width: 95.35vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: #044d64;
+    margin: 0.5rem 0.8rem 0.5rem 0.8rem;
+}
+
+.headline-box {
+    height: 25vh;
+    width: 53.9705vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem 0.5rem 0.5rem 0.8rem;
+}
+
+.aboutme-box {
+    height: 25vh;
+    width: 39.6vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem 0.8rem 0.5rem 0.5rem;
+}
+
+.projectexp-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box {
+    height: 14vh;
+    width: 24vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem 0.5rem 0.5rem 0.8rem;
+}
+
+.aes-box {
+    height: 10vh;
+    width: 24vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: #044d64;
+    margin: 0.5rem 0.5rem 0.5rem 0.8rem;
+}
+
+.proj1 {
+    height: 27.31vh;
+    width: 22.945vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem -5px 0.5rem 0.5rem;
+}
+
+.proj2 {
+    height: 27.31vh;
+    width: 22.945vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem -5px 0.5rem 0;
+}
+
+.proj3 {
+    height: 27.31vh;
+    width: 22.945vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem 0.8rem 0.5rem 0;
+}
+
+.personal-work {
+    height: 20vh;
+    width: 70vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem 0.5rem 0.5rem 0.8rem;
+}
+
+.contact {
+    height: 20vh;
+    width: 23.55vw;
+    border-style: solid;
+    border-width: thick;
+    background-color: white;
+    margin: 0.5rem 0.8rem 0.5rem 0.5rem;
+}
