@@ -3,20 +3,38 @@
  * return the item in the list corresponding to the maximum value in list after applying key to
  * each time.
  */
-function max(iterable, key) {
-    var maximum = key(iterable[0]);
-    for (var val in iterable) { // for in loop to iterate thru all elements of the iterable
-      var postKey = key(val); // after applying func key to val
-      if (postKey >= maximum) { // see if max needs to be reset
-        maximum = postKey;
+ function max(iterable, key) {
+    var maximum = [key(iterable[0]), iterable[0]]; // key is used to establish an ordering
+    for (var i in iterable) { // note: for-in loop is not recommended for iterating over arrays
+      var postKey = key(iterable[i]);
+      if (postKey >= maximum[0]) {
+        maximum = [postKey, iterable[i]];
       }
     }
-    return maximum;
-}
+    return maximum[1];
+  }
+  
+console.log(max([1, 2, 100, 4, 5], x => x)); // ad-hoc test
 
 /**
  * Q2. Based on the previous question, in one line, write an anonymous function which, when passed
  * as key to max would cause max to return the smallest value in the list.
  */
- const reverser = (iterable, key) => -1 * max(iterable.map(x => -1 * x), key);
+ const reverser = x => -1 * x;
 
+ console.log(max([1, -2, -100, 4, 5], reverser)); // ad-hoc test
+
+/**
+ * Q4. 
+ */
+ function changer(object, key, value) {
+    var ______ = ______;
+    if (Array.isArray(prev)) {
+      ______;
+    } else if (typeof prev == 'object' && prev != null) {
+      ______ = ______;
+    } else {
+      ______ = ______;
+    }
+    return null;
+  }
