@@ -13,16 +13,12 @@ function max(iterable, key) {
     }
     return maximum[1];
 }
-  
-console.log(max([1, 2, 100, 4, 5], x => x)); // ad-hoc test
 
 /**
  * Q2. Based on the previous question, in one line, write an anonymous function which, when passed
  * as key to max would cause max to return the smallest value in the list.
  */
 const reverser = x => -1 * x;
-
-console.log(max([1, -2, -100, 4, 5], reverser)); // ad-hoc test
 
 /**
  * Q4. We want to create a general purpose function to keep records. We pass a JSON object, key,
@@ -46,18 +42,18 @@ function changer(object, key, value) {
 }
 
 /**
- * In this function, we want to print the numbers 1, 2, 3, 4, 5 in numerical order. Using Promises,
+ * Q5. In this function, we want to print the numbers 1, 2, 3, 4, 5 in numerical order. Using Promises,
  * fill in the function to print numbers in the correct order.
  */
- async function promise_me(truthy) {
+async function promise_me(truthy) {
     const a = new Promise((resolve, reject) => {
-        console.log(_____)
-        ______(______)
+        console.log(1);
+        resolve("5");
     })
-    console.log(2)
-    console.log(3)
-    console.log(4)
-    const five = ______ ______
-    console.log(five)
-    return five
+    console.log(2);
+    console.log(3);
+    console.log(4);
+    const five = await a.then(x => x)
+    console.log(five);
+    return five;
 }
